@@ -1,5 +1,5 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/demoapplication.jar demoapplication.jar
-ENTRYPOINT ["java","-jar","/demoapplication.jar"]
+ADD target/DemoApplication.jar DemoApplication.jar
+ENTRYPOINT ["java","-jar","/DemoApplication.jar"]
 
