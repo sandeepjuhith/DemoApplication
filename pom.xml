@@ -58,6 +58,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Demo-Application</finalName>
 	</build>
 
 	<packaging>jar</packaging>
